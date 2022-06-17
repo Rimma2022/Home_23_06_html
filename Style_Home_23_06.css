@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+div.task2{    
+    height: 700px;
+
+}
+div.row1{    
+    /* background-color: rgb(21, 116, 94); */
+    background-color: rgb(65, 139, 142);
+    color: white;    
+    height: 20%;    
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+        
+}
+
+div.row2{
+    height: 80%;    
+    /* background-color: rgb(90, 172, 146); */
+    background-color: rgb(29, 161, 154);
+    display: flex;
+    justify-content: space-between;
+    padding: 1%;
+}
+.item2{
+    background-color: gainsboro;
+    width: 32%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 3%;
+}
+.ticket{
+    background-color: white;
+    margin-bottom: 10px;
+    /* height: 20%; */
+    padding: 10px;
+    border-radius: 5%;
+        
+}
+.ticket_inner{
+    display: flex;
+    
+    
+    
+}
+.inner_left{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.inner_right{
+    width: 40%;
+    text-align: right;
+}
+
